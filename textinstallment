@@ -1,0 +1,15 @@
+npm install nodejs
+npm init -y       "this install json file"
+npm i express openai dotenv
+npm i -D nodemon
+
+
+in the package.json file create a start and dev.
+"scripts": {
+    "start": "node index",
+    "dev": "nodemon index"
+  },
+
+  npm run dev
+
+  
